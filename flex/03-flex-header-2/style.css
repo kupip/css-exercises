@@ -45,4 +45,20 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center; /*hal baru ini*/
+  gap: 16px;
 }
